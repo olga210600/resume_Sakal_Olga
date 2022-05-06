@@ -1,0 +1,281 @@
+body {
+    padding    : 0;
+    margin     : 0;
+    width      : 100%;
+    height     : 100%;
+    font-family: sans-serif;
+    color      : #656564;
+}
+
+.main-wrapper {
+    width      : 800px;
+    height     : 100%;
+    text-align : center;
+    align-items: center;
+    margin     : 0 auto 90px;
+}
+
+header {
+    width     : 100%;
+    height    : 100%;
+    background: orange;
+    box-sizing: border-box;
+}
+
+.person-information-wrapper {
+    width          : 100%;
+    height         : 170px;
+    display        : flex;
+    background     : #FFEDED;
+    text-align     : center;
+    margin         : auto;
+    justify-content: center;
+    align-items    : center;
+}
+
+.person-img-wrapper {
+    display    : flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.person-img {
+    width          : 150px;
+    height         : 150px;
+    border-radius  : 50%;
+    object-fit     : cover;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    border         : 5px solid #E1B935;
+}
+
+.pearson-name-wrapper {
+    text-align     : center;
+    justify-content: center;
+    align-items    : center;
+}
+
+.person-name {
+    font-size: 59px;
+    margin   : 0 0 5px 0;
+    padding  : 0;
+    color    : #E1B935;
+}
+
+.person-job {
+    font-size : 22px;
+    margin   : 0;
+    padding  : 0;
+    color    : #E1B935;
+}
+
+.contact-wrapper {
+    width          : 100%;
+    height         : 70px;
+    background     : #FAF9F9;
+    display        : flex;
+    justify-content: space-around;
+    text-align     : center;
+    align-items    : center;
+}
+
+.contact-wrapper img {
+    width        : 18px;
+    height       : 18px;
+    margin-bottom: 4px;
+}
+
+.contact-wrapper p {
+    margin : 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+}
+
+.main-info-wrapper {
+    height      : 100%;
+    width       : 65%;
+    min-width   : 455px;
+    padding-left: 48px;
+    box-sizing  : border-box;
+}
+
+.work-exp-wrapper {
+    width      : 400px;
+    border-left: 2px solid #CAC3C3;
+    text-align : left;
+    position   : relative;
+}
+
+.icon-work-wrapper {
+    border         : 1px solid #CAC3C3;
+    border-radius  : 50%;
+    width          : 40px;
+    height         : 40px;
+    background     : white;
+    position       : absolute;
+    left           : -20px;
+    top            : 46px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.icon-educations-wrapper {
+    border         : 1px solid #CAC3C3;
+    border-radius  : 50%;
+    width          : 40px;
+    height         : 40px;
+    background     : white;
+    position       : absolute;
+    left           : -20px;
+    top            : 180px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.section-work-wrapper {
+    position   : relative;
+    width      : 62%;
+    margin     : 50px 5px 30px 150px;
+    align-items: center;
+}
+
+.section-education-wrapper {
+    position   : relative;
+    margin     : 50px 5px 30px 100px;
+    align-items: center;
+}
+
+.work {
+    position: absolute;
+    top         : -42px;
+    left        : -155px;
+    margin-right: 5px;
+    font-size   : 19px;
+}
+
+.educations {
+    position : absolute;
+    top      : -42px;
+    left     : -105px;
+    font-size: 19px;
+}
+
+.line-work {
+    width        : 270px;
+    border-bottom: solid 1px gray;
+    margin-left  : 40px;
+}
+
+.line-education {
+    width        : 335px;
+    border-bottom: solid 1px gray;
+    margin-left  : 26px;
+}
+
+.work-exp-wrapper p {
+    padding-left: 30px;
+}
+
+.position-item {
+    font-weight  : bold;
+    margin-bottom: 7px;
+    margin-top   : 48px;
+}
+
+.user-company-education {
+    margin   : 0;
+    padding  : 0;
+    font-size: 13px;
+}
+
+.additional-info-wrapper {
+    height     : 100%;
+    width      : 35%;
+    min-width  : 245px;
+    padding-top: 4px;
+    border-left: 2px solid #CAC3C3;
+    margin-left: 15px;
+    box-sizing : border-box;
+    margin-top : 29px;
+}
+
+.skills {
+    font-weight: bold;
+    font-size  : 19px;
+    margin     : 0 0 0 20px;
+    text-align : left;
+}
+
+ul {
+    list-style-type: none;
+    text-align     : left;
+    margin-left    : 37px;
+    padding        : 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size    : 15px;
+}
+
+.interest-wrapper {
+    margin-top: 35px;
+}
+
+.img-interest-wrapper {
+    width      : 250px;
+    word-wrap  : normal;
+    margin-left: 27px;
+    margin-top : 5px;
+}
+
+.img-interest-wrapper img {
+    margin: 15px 33px 0 0;
+}
+
+.connection-wrapper {
+    margin-top: 35px;
+}
+
+.user-message-wrapper, .user-name-wrapper {
+    margin-top: 20px;
+}
+
+.label-for-name {
+    margin-left: -106px;
+}
+
+.label-for-message {
+    margin-left: -82px;
+}
+
+input, textarea {
+    width        : 190px;
+    max-width    : 190px;
+    min-height   : 30px;
+    display      : block;
+    margin       : 13px auto;
+    box-sizing   : border-box;
+    border-radius: 5px;
+    border       : solid 1px gray;
+    text-align   : center;
+    max-height   : 38px;
+}
+
+.send-button {
+    display      : block;
+    width        : 100px;
+    height       : 25px;
+    margin       : 12px 0 5px 132px;
+    background   : #84DD1C;
+    border       : none;
+    border-radius: 5px;
+    color        : white;
+    font-size    : 17px;
+}
